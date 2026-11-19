@@ -1,6 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss' layer(base);
+@theme {
+  --color-blue-400: '#2589FE'
+  --color-blue-500: '#0070F3'
+  --color-blue-600: '#2F6FEB'
+}
 
 input[type='number'] {
   -moz-appearance: textfield;
